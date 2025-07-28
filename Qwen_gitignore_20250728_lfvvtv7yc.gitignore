@@ -1,0 +1,23 @@
+# Archivos de entorno
+.env
+
+# Flutter
+.DS_Store
+Thumbs.db
+build/
+.dart_tool/
+.packages
+.pub/
+flutter_*.png
+*.log
+*.tmp
+*.temp
+
+# Android
+local.properties
+.gradle
+*.keystore
+*.jks
+
+# VS Code
+.vscode/
