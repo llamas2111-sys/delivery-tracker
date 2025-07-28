@@ -1,0 +1,23 @@
+name: delivery_tracker
+description: App para seguimiento en tiempo real de conductores
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.2.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env.example
